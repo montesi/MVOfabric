@@ -22,10 +22,10 @@ for gamma=[0,0.2,0.5,1,2,5];
         'Rotation',rad2deg(ang),'VerticalAlignment','baseline');
 end
 % fabric intensity
-for xi=0:0.5:pMax
-    plot([0,xi],[xi,0],'k')
-    text(xi/2,xi/2,...
-        sprintf('%s\\xi = %g','  ',xi),...
+for zeta=0:0.5:pMax
+    plot([0,zeta],[zeta,0],'k')
+    text(zeta/2,zeta/2,...
+        sprintf('%s\\zeta = %g','  ',zeta),...
         'Rotation',-45,'VerticalAlignment','bottom');
 end
 xlabel('log(\tau_2/\tau_1)')
